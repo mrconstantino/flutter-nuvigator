@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nested_nuvigators/screens/home_screen.dart';
 import 'package:nuvigator/next.dart';
 import 'flows/first_flow/route.dart';
 import 'flows/second_flow/route.dart';
@@ -6,6 +7,21 @@ import 'flows/second_flow/route.dart';
 void main() {
   runApp(MyApp());
 }
+
+// class MyApp extends StatelessWidget {
+//
+//   @override
+//   Widget build(BuildContext context)  {
+//
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       theme: ThemeData(
+//         fontFamily: 'Montserrat',
+//       ),
+//       home: HomeScreen(),
+//     );
+//   }
+// }
 
 class MyApp extends StatelessWidget {
   @override
